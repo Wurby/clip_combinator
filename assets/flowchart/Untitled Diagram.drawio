@@ -1,11 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T00:04:28.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="YTM7RcaLMl433zQtm3eg" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T00:50:34.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="fBZftJfqEamZYRJhrWCC" version="16.2.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="823" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="Wi9s44-nGLVFEPQcF1EX-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-1" value="Grap twitch clips" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Wi9s44-nGLVFEPQcF1EX-1" target="Wi9s44-nGLVFEPQcF1EX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="210" as="sourcePoint" />
+            <mxPoint x="300" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-3" value="ffmpeg merge&amp;nbsp;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-4" value="authorize with twitch" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Wi9s44-nGLVFEPQcF1EX-4" target="Wi9s44-nGLVFEPQcF1EX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="160" as="sourcePoint" />
+            <mxPoint x="240" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.775;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Wi9s44-nGLVFEPQcF1EX-3" target="Wi9s44-nGLVFEPQcF1EX-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="290" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-7" value="save FS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.merge_or_storage;whiteSpace=wrap;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);align=center;strokeColor=rgb(0, 0, 0);fillColor=rgb(255, 255, 255);" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Wi9s44-nGLVFEPQcF1EX-3" target="Wi9s44-nGLVFEPQcF1EX-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="sourcePoint" />
+            <mxPoint x="400" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-9" value="upload to youtube" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-10" value="authorize with youtube data api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wi9s44-nGLVFEPQcF1EX-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Wi9s44-nGLVFEPQcF1EX-10" target="Wi9s44-nGLVFEPQcF1EX-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="350" as="sourcePoint" />
+            <mxPoint x="500" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
